@@ -19,7 +19,6 @@ namespace Reactor
         {
             var customStringName = new CustomStringName(_lastId--, value);
             _list.Add(customStringName);
-
             return customStringName;
         }
 
